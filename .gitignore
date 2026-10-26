@@ -1,0 +1,24 @@
+# Resultados das execuções (evidências ficam nos artefatos do CI)
+resultados/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Segredos: nunca versionar
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
